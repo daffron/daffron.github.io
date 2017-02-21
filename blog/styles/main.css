@@ -1,0 +1,15 @@
+ul { display: inline-block;
+        text-align:left;
+			font-weight: bolder;}
+			body {background-color: #8e8989;}
+			div {background-color: #bcb6ed;}
+			#center-color {background-color: #cddef7}
+h1 {font-family: 'Roboto', sans-serif;}
+h2 {font-family: 'Roboto', sans-serif;}
+h3 {font-family: 'Roboto', sans-serif;}
+.links {font-family: 'Roboto', sans-serif;
+					font-size: 30px;
+					}
+.headings {padding-top: 50px; padding-bottom: 150px;}
+.backgrnd {background-color: #bcb6ed;}
+.upprpadding {padding-top: 75px;}
