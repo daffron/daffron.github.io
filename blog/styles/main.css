@@ -41,11 +41,11 @@ body {
 }
 
 .textboxtop{
-  background-color: white;
-  color: gray;
-  border-radius: 5%;
-  text-align: center;
-  margin-top: 18%;
+  background-color: white!important;
+  color: gray!important;
+  border-radius: 5%!important;
+  text-align: center!important;
+  margin-top: 18%!important;
 }
 
 li {
