@@ -40,6 +40,14 @@ body {
   text-align: center;
 }
 
+.textboxtop{
+  background-color: white;
+  color: gray;
+  border-radius: 5%;
+  text-align: center;
+  margin-top: 18%;
+}
+
 li {
   font-weight: bold;
 }
@@ -89,4 +97,9 @@ a:hover {
 .sideimage {
   padding: 5px;
   border-radius: 5px;
+}
+
+.spacer {
+  margin-top: -10%;
+  padding-top: -10%;
 }
