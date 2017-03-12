@@ -1,5 +1,5 @@
 
-
+/*
 body {
   background-image:url("https://static.pexels.com/photos/34578/pexels-photo.jpg");
 
@@ -8,13 +8,4 @@ body {
   background-position: top center;
   background-attachment: fixed;
 }
-
-
-
-
-
-
-
-.navbar-nav>li>.dropdown-menu {
-	z-index: 9999;
-}
+*/

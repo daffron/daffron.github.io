@@ -7,39 +7,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+        });
+    </script>
   </head>
   <body>
 
     <div class="container">
-      <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
 
-          <div class="navbar-header">
-              <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-              <a href="https://daffron.co" img src="images/logo.png" class="navbar-brand">Brand</a>
-          </div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Jack Daffron</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
 
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Profile</a></li>
-                  <li><a href="#">Messages</a></li>
-
-
-                  <li><a href="#">Login</a></li>
+            </ul>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Time &amp; Habits</a></li>
+                <li><a href="#">Emotional Intelligence</a></li>
+                <li><a href="#">Reflection</a></li>
+                <li><a href="#">Udacity Reflection</a></li>
+                <li><a href="#">Udacity Reflection 2</a></li>
               </ul>
-          </div>
-      </div>
-  </nav>
-
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </body>
 </html>
