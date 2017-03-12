@@ -1,5 +1,5 @@
 
-/*
+
 body {
   background-image:url("https://static.pexels.com/photos/34578/pexels-photo.jpg");
 
@@ -8,4 +8,32 @@ body {
   background-position: top center;
   background-attachment: fixed;
 }
-*/
+
+.titlefont {
+   text-align: center;
+   color: #FFFFFF;
+   border-color: black;
+}
+
+.textbox {
+  background-color: white;
+  border-radius: 3%;
+  text-align: center;
+  color: gray;
+}
+h5 {
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+p {
+  color: gray;
+  text-align: center;
+}
+li {
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+  list-style-type: none;
+}
