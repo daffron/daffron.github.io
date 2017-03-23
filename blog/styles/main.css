@@ -20,6 +20,8 @@ body {
   border-radius: 3%;
   text-align: center;
   color: gray;
+
+
 }
 h5 {
   color: gray;
@@ -36,4 +38,9 @@ li {
   text-align: center;
   font-weight: bold;
   list-style-type: none;
+}
+
+.dropposition {
+  margin-left: 60%;
+  padding-top: 10%;
 }
