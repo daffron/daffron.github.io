@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jack Daffron | Basic Javascript</title>
+    <title>Jack Daffron | JS Scope</title>
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
@@ -55,24 +55,44 @@
         </div>
       </nav>
       <div class="row">
-        <h1 class="titlefont">Javascript Basics</h1>
+        <h1 class="titlefont">Javascript Scope</h1>
       </div>
-      <div class="row textbox">
+      <div class="row">
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-6 textbox">
         <p>
-          The largest differences between Javascript compared to the likes of HTML and CSS is that it can be used to program, store data and provide interactivity.<br>
-          <hr>
-          Two elements of JS that can be described as a everyday life process are 'control flow and  loops':
-          Lets say you have finished your dinner are about to load the dishwasher, once you open if you have two options.<br>
-          IF it is full  - then you would empty it,<br>
-          Otherwise or ELSE you would just put your plate in.<br>
-          That was similar to a control flow statement.<br>
-          Now a basic loop may be similar to a teacher doing a role call, they start at position 0, and for each entry they will call out the name and wait for a reply. The teach will continue the process until all the names have been called out.
-          <hr>
-          Accessing data from Arrays differs to Objects due to arrays being accessed by declaring the position in the array.<br>
-          Objects are accessed by Dot or Bracket notation, using key and object names.<br>
-          Functions, in short, are blocks of code which run when 'called', they are useful as they make it so only required code is read by the browser.
+          In short, Scope in Javascript refers to to visibilty of variables.<br>
+          Variables defined inside functions are said to have a local scope, meaning they can only be accessed inside the function.<br>
+          Variables defined on there own have a global scope and can be accessed from anywhere in that JS file.<br>
+          A good practice, instead of having a lot of global variables, is to have values declared inside objects. E.G<br>
+          <br>
+          Instead of:<br>
+          var apples = 6;<br>
+          var bananas = 9;<br>
+          var oranges = 2;<br>
+          <br>
+
+          You can put them in a global object:<br>
+          <br>
+          var fruit = {<br>
+            apples: 6,<br>
+            bananas: 9,<br>
+            oranges: 2<br>
+          }<br>
+          <br>
+
+          And these can be accessed globally via dot or bracket notation:<br>
+          <br>
+          var x = fruit.apples;
+
+
 
         </p>
+      </div>
+      <div class="col-xs-3">
+      </div>
+
       </div>
 
 
